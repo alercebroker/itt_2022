@@ -1,0 +1,72 @@
+original SPM
+
+training
+              precision    recall  f1-score   support
+
+        SLSN       0.57      1.00      0.72        76
+        SNII       0.79      0.69      0.73       529
+       SNIIb       0.13      1.00      0.23        41
+       SNIIn       0.61      0.99      0.75       113
+        SNIa       0.98      0.77      0.86      2794
+       SNIbc       0.33      0.87      0.48       167
+
+    accuracy                           0.77      3720
+   macro avg       0.57      0.89      0.63      3720
+weighted avg       0.89      0.77      0.81      3720
+
+
+
+
+
+test
+
+              precision    recall  f1-score   support
+
+        SLSN       0.29      0.68      0.41        19
+        SNII       0.78      0.56      0.65       132
+       SNIIb       0.06      0.50      0.10        10
+       SNIIn       0.33      0.45      0.38        29
+        SNIa       0.95      0.76      0.85       699
+       SNIbc       0.15      0.38      0.22        42
+
+    accuracy                           0.70       931
+   macro avg       0.43      0.56      0.43       931
+weighted avg       0.85      0.70      0.76       931
+
+
+
+
+Multiband SPM
+
+training
+
+              precision    recall  f1-score   support
+
+        SLSN       0.53      1.00      0.69        76
+        SNII       0.87      0.68      0.76       529
+       SNIIb       0.20      1.00      0.34        41
+       SNIIn       0.67      0.97      0.79       113
+        SNIa       0.98      0.83      0.90      2794
+       SNIbc       0.33      0.87      0.48       167
+
+    accuracy                           0.82      3720
+   macro avg       0.60      0.89      0.66      3720
+weighted avg       0.91      0.82      0.85      3720
+
+
+test
+
+              precision    recall  f1-score   support
+
+        SLSN       0.34      0.58      0.43        19
+        SNII       0.76      0.59      0.67       132
+       SNIIb       0.06      0.40      0.11        10
+       SNIIn       0.30      0.41      0.35        29
+        SNIa       0.97      0.81      0.88       699
+       SNIbc       0.19      0.48      0.27        42
+
+    accuracy                           0.75       931
+   macro avg       0.44      0.55      0.45       931
+weighted avg       0.86      0.75      0.79       931
+
+
